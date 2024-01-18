@@ -32,7 +32,7 @@ services:
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
       - MARIADB_USER=user
-      - MARIADB_DATABASE=whitewill
+      - MARIADB_DATABASE=laravel
     container_name: app_db
 
   pma:
